@@ -25,7 +25,6 @@ function FeedbackList({handleDelete}) {
             <Feedbackitem
                key={item.id} 
                item={item}
-               handleDelete={handleDelete}
             />
             </motion.div>
         ))}
